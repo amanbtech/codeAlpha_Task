@@ -1,0 +1,138 @@
+body{
+    width:97vw;
+    height:97vh;
+    display:grid;
+    grid-template-columns: 1;
+    row-gap:5px;
+    grid-template-rows: 0.5fr 1fr 1.5fr;
+    background: #000;
+
+}
+.answer{
+  
+
+    border-radius: 30px;
+    width:80vw;
+    
+    border: 3px solid rgb(168, 168, 160);
+    text-align: center;;
+    margin-left:10vw;
+    background: #363837;
+    
+   
+}
+.gr{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 500;
+    background: linear-gradient(yellow,blue,rgb(139, 241, 169),red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    padding-top:40px;
+
+   
+     
+
+}
+
+.sumbox{
+    width:97vw;
+    font-size: 3rem;
+     font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  /* text-wrap-style:stable ; */
+    
+    border:2px solid whitesmoke;
+    border-radius: 15px;
+    padding-left: 10px;
+    
+    
+
+    background: #2d3a30;
+
+}
+.keyword{
+    display: grid;
+    grid-template-columns: 1.75fr 0.25fr;
+    grid-template-rows: 1fr;
+    border:2px solid yellow;
+    column-gap: 5px;
+
+    background: #464444;
+    border-radius: 20px;
+
+
+
+}
+.number{
+   
+    display: grid;
+    column-gap: 8px;
+
+    
+
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+
+}
+.opertor{
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+     font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    row-gap: 10px;
+    
+}
+
+.n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n0,.plus,.min,.mul,.divide{
+    /* width:60px;
+    height:30px; */
+    border:3px solid;
+    
+    border-image-slice: 1;
+    border-image-source: linear-gradient(red,lightgreen,blue,skyblue);
+  padding-top: 10px;
+  font-size:2rem;
+    text-align: center;
+    background: #251e1e;
+    margin: 10px;
+}
+
+.res{
+    font-size:2rem;
+    border-radius: 10px;
+    background: #564242;
+    color:white;
+
+}
+.reset{
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background: rgb(238, 85, 85);
+}
+.n1:hover,.n2:hover,.n3:hover,.n4:hover,.n5:hover,.n6:hover,.n7:hover,.n8:hover,.n9:hover,.n0:hover{
+    transform: scale(1.1);
+    border:1px solid yellow;
+    border-radius: 8px;
+}
+
+.plus:hover,.min:hover,.divide:hover,.mul:hover{
+    background: #041404;
+}
